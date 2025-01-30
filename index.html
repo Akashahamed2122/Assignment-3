@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awosome cdn linking -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- tailwind linking -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- header section code start -->
+     <header class=" bg-[#FFF9F4]">
+        <!-- container -->
+        <div class="md:max-w-screen-xl mx-auto p-5 border-b md:border-none">
+            <nav class="grid grid-cols-2 md:grid-cols-3">
+                <!-- logo -->
+                 <div class="flex items-center gap-4">
+                    <img src="c1-assets/logo-header.png" alt=""> 
+                    <h5 class="hidden md:block text-xl">Browse<span class="text-[#FFDC26]">4</span>Pets</h5>
+                 </div>
+                 <!-- nav item -->
+                  <div class="md:flex items-center hidden md:block">
+                    <ul class="md:flex items-center gap-10 text-[#111111]">
+                        <li>
+                            <a class="text-xl" href="#">Find a pet</a>
+                        </li>
+                        <li>
+                            <a class="text-xl" href="#">Breeds</a>
+                        </li>
+                        <li>
+                            <a class="text-xl" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                  </div>
+                  <!-- button -->
+                   <div class="md:flex items-center justify-end gap-5 ">
+                    <i class="fa-solid fa-user hidden md:block"></i>
+                    <i class="fa-solid fa-magnifying-glass hidden md:block"></i>
+                    <a class="py-2.5 px-7 border border-[#FFDC26] text-black hidden md:block rounded-lg" href="#">Login</a>
+                    <a class="py-2.5 px-7 bg-[#FFDC26] text-black hidden md:block rounded-lg" href="#">Register</a>
+                    <div class="md:hidden flex justify-end mt-6 text-xl"><i class="fa-solid fa-bars"></i></div>
+                   </div>
+                   
+                   
+            </nav>
+            
+        </div>
+
+     </header>
+     <!-- main -->
+      <main class="max-w-screen-xl mx-auto px-5">
+        <!-- banner section code start -->
+       <section>
+        <div class="banner my-10">
+            
+            <!-- main div -->
+           <div class="bg-[url('c1-assets/cat-big.png')] bg-contain bg-no-repeat md:bg-cover bg-auto bg-left-bottom h-[450px] md:h-[600px] md:w-full">
+            <div class="grid grid-cols-1 md:grid-cols-2  z-20">
+                <div>
+                    <h2 class="text-[#111111] text-4xl md:text-5xl">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h2>
+                    <p class="text-[#111111] py-4">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+                    
+                    <button class="bg-[#FFDC26] py-2.5 px-7 bg rounded-lg">Find a pet</button>
+                </div>
+                <div class="hidden md:block"></div>
+             </div>
+           </div>
+
+        </div>
+       </section>
+        <!-- banner section code end -->
+         <!-- category section code start -->
+          <section class=" mb-8 gap-4">
+            <!-- main div -->
+             <div>
+                <h2 class="text-3xl">Browse By Categories</h2>
+                
+                <div class="grid grid-cols-2 lg:grid-cols-6 mt-7 gap-4">
+                    <!-- card -->
+                    <div class="bg-[#F9DF8A] rounded-lg py-8">
+                        <img class="bg-white rounded-full p-2 mx-auto" src="c1-assets/dog-cartoon.png" alt="">
+                        <!-- content -->
+                         <div class="flex flex-col justify-center text-center">
+                            <h4 class="text-xl text-black">Dog</h4>
+                            <p class="text-black text-base">3 items</p>
+                         </div>
+                    </div>
+                    <!-- card -->
+                    <div class="bg-[#F9DF8A] rounded-lg py-8">
+                        <img class="bg-white rounded-full p-2 mx-auto" src="c1-assets/fish-cartoon.png" alt="">
+                        <!-- content -->
+                         <div class="flex flex-col justify-center text-center">
+                            <h4 class="text-xl text-black">Fish</h4>
+                            <p class="text-black text-base">3 items</p>
+                         </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="bg-[#F9DF8A] rounded-lg py-8">
+                        <img class="bg-white rounded-full p-2 mx-auto" src="c1-assets/cat-cartoon.png" alt="">
+                        <!-- content -->
+                         <div class="flex flex-col justify-center text-center">
+                            <h4 class="text-xl text-black">Dog</h4>
+                            <p class="text-black text-base">3 items</p>
+                         </div>
+                    </div>
+                    <div class="bg-[#F9DF8A] rounded-lg py-8">
+                        <img class="bg-white rounded-full p-2 mx-auto" src="c1-assets/bird-cartoon.png" alt="">
+                        <!-- content -->
+                         <div class="flex flex-col justify-center text-center">
+                            <h4 class="text-xl text-black">Dog</h4>
+                            <p class="text-black text-base">3 items</p>
+                         </div>
+                    </div>
+                    <div class="bg-[#F9DF8A] rounded-lg py-8">
+                        <img class="bg-white rounded-full p-2 mx-auto" src="c1-assets/mouse-cartoon.png" alt="">
+                        <!-- content -->
+                         <div class="flex flex-col justify-center text-center">
+                            <h4 class="text-xl text-black">Dog</h4>
+                            <p class="text-black text-base">3 items</p>
+                         </div>
+                    </div>
+                    <!-- card -->
+                    <div class="bg-[#F9DF8A] rounded-lg py-8">
+                        <img class="bg-white rounded-full p-2 mx-auto" src="c1-assets/rabbit-cartoon.png" alt="">
+                        <!-- content -->
+                         <div class="flex flex-col justify-center text-center">
+                            <h4 class="text-xl text-black">Dog</h4>
+                            <p class="text-black text-base">3 items</p>
+                         </div>
+                    </div>
+    
+                 </div>
+             </div>
+
+          </section>
+         <!-- category section code end -->
+
+      </main>
+    
+</body>
+</html>
