@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- google font linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
     <!-- font awosome cdn linking -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <!-- tailwind linking -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .adam-font{
+            font-family: "ADLaM Display", serif;
+        }
+    </style>
 </head>
-<body>
+<body c>
     <!-- header section code start -->
      <header class=" bg-[#FFF9F4]">
         <!-- container -->
@@ -138,19 +147,23 @@
          <!-- category section code end -->
       </main>
        <!-- trending section code start -->
-       <section class="bg-[#FFF9F4] py-12">
+       <section class="bg-[#FFF9F4] py-4">
        <!-- container -->
         <div class="max-w-screen-xl mx-auto px-5">
+            <h2 class="text-3xl pb-8">Browse By Categories</h2>
              <!-- main grid -->
         <div class="grid grid-cols-1 md:grid-cols-[33%_67%] gap-4">
             <!-- left -->
-            <div class="   bg-[#F9DF8A] bg-[url('c1-assets/cute-pet-small.png')] bg-contain bg-no-repeat md:bg-contain h-[400px] bg-auto bg-right-bottom ">
-                <div class="pl-4">
+            <div class=" bg-[#F9DF8A] relative h-[400px]  overflow-hidde rounded-lg">
+                <div class="p-12">
                 <h4 class="text-3xl">Tshart for dogs</h4>
                 <br>
-                <p>discover a world of tries,toys, and <br></p>
+                <p>discover a world of tries,toys, and <br> essentials handpicked for</p>
                 <br>
                 <button class="py-2.5 px-7 border border-[#FFDC26] text-black bg-white rounded-lg">shop now</button>
+                </div>
+                <div class="absolute right-0 bottom-0">
+                    <img src="c1-assets/cute-pet-small.png" alt="">
                 </div>
                 
             </div>
@@ -171,7 +184,31 @@
                 <!-- pets card -->
                  <div class="flex gap-4 justify-center items-center bg-white shadow-[#FFFFFF] rounded-lg border">
                     <div>
-                        <img class="bg-[#FFF9F4] p-4 rounded-lg" src="c1-assets/dog-cartoon.png" alt="">
+                        <img class="bg-[#FFF9F4] p-4 rounded-lg" src="c1-assets/fish-cartoon.png" alt="">
+                    </div>
+                    <div>
+                        <div class="flex gap-2 items-center text-xs"><i class="fa-solid fa-star text-[#FFC107]"></i><p>4.5</p></div>
+                        <h4 class="text-sm md:text-xl">Pet Bed</h4>
+                        <p class="text-xs md:text-base">$39.99</p>
+                    </div>
+
+                 </div>
+                <!-- pets card -->
+                 <div class="flex gap-4 justify-center items-center bg-white shadow-[#FFFFFF] rounded-lg border">
+                    <div>
+                        <img class="bg-[#FFF9F4] p-4 rounded-lg" src="c1-assets/bird-cartoon.png" alt="">
+                    </div>
+                    <div>
+                        <div class="flex gap-2 items-center text-xs"><i class="fa-solid fa-star text-[#FFC107]"></i><p>4.5</p></div>
+                        <h4 class="text-sm md:text-xl">Pet Bed</h4>
+                        <p class="text-xs md:text-base">$39.99</p>
+                    </div>
+
+                 </div>
+                <!-- pets card -->
+                 <div class="flex gap-4 justify-center items-center bg-white shadow-[#FFFFFF] rounded-lg border">
+                    <div>
+                        <img class="bg-[#FFF9F4] p-4 rounded-lg" src="c1-assets/rabbit-cartoon.png" alt="">
                     </div>
                     <div>
                         <div class="flex gap-2 items-center text-xs"><i class="fa-solid fa-star text-[#FFC107]"></i><p>4.5</p></div>
@@ -229,31 +266,7 @@
 
                  </div>
                 <!-- pets card -->
-                 <div class="flex gap-4 justify-center items-center bg-white shadow-[#FFFFFF] rounded-lg border">
-                    <div>
-                        <img class="bg-[#FFF9F4] p-4 rounded-lg" src="c1-assets/dog-cartoon.png" alt="">
-                    </div>
-                    <div>
-                        <div class="flex gap-2 items-center text-xs"><i class="fa-solid fa-star text-[#FFC107]"></i><p>4.5</p></div>
-                        <h4 class="text-sm md:text-xl">Pet Bed</h4>
-                        <p class="text-xs md:text-base">$39.99</p>
-                    </div>
-
-                 </div>
-                <!-- pets card -->
-                 <div class="flex gap-4 justify-center items-center bg-white shadow-[#FFFFFF] rounded-lg border">
-                    <div>
-                        <img class="bg-[#FFF9F4] p-4 rounded-lg" src="c1-assets/dog-cartoon.png" alt="">
-                    </div>
-                    <div>
-                        <div class="flex gap-2 items-center text-xs"><i class="fa-solid fa-star text-[#FFC107]"></i><p>4.5</p></div>
-                        <h4 class="text-sm md:text-xl">Pet Bed</h4>
-                        <p class="text-xs md:text-base">$39.99</p>
-                    </div>
-
-                 </div>
-                <!-- pets card -->
-                <div class=" flex gap-4 justify-center items-center bg-white shadow-[#FFFFFF] rounded-lg md:border ">
+                <div class=" flex gap-4 justify-center items-center bg-white shadow-[#FFFFFF] rounded-lg md:border">
                     <div class="hidden md:block">
                         <img class="bg-[#FFF9F4] p-4 rounded-lg" src="c1-assets/dog-cartoon.png" alt="">
                     </div>
